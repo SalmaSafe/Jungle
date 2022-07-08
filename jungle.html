@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jungle.css">
+    <script src="jungle.js"></script>
+</head>
+<body>
+    <head>
+    <title>My Hell Hole</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="#" class="logo">Forest</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <Section>
+        <h2 id="text"><span>It's time for a new</span><br>Adventure</h2>
+
+        <img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png" id="bird1">
+        <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png" id="bird2">
+        <img src="https://user-images.githubusercontent.com/65358991/170092559-883fe071-eb4f-4610-8c8b-a037d061c617.png" id="forest">
+
+        <a href="#" id="btn">Explore</a>
+
+        <img src="https://user-images.githubusercontent.com/65358991/170092605-eada6510-d556-45cc-b7fa-9e4d1d258d26.png" id="rocks">
+        <img src="https://user-images.githubusercontent.com/65358991/170092616-5a70c4af-2eed-496f-bde9-b5fcc7142a31.png" id="water">
+    </Section>
+
+    <div class="sec">
+        <h2>Epitome of my Despair</h2>
+        <p>Days were warm and sunny, the air smelled of infinite hope, mind was filled with immense possibilities of what was going to be. Young, innocent full of life, no one knew that there would come a time that hope or dreams would be thought of as an unreachable ironical circumstance that's just but a dream. A dream so feeble that in between the hard knack life, it got blown away by the winds from the storms of life. What was once filled with life, green with life is now an empty vessle of nothing but wilting emotions.
+            <br><br>
+            snatched hopes, a heart shattered into a million unmendable pieces. Her once colorful world is now grey like the 90s films. Radiating no positive energy but cold, frozen undefined energy.My life is like an undefined function with no variable. I'm trying to call-back this function to see if probably the variable am trying to assign to it will come back and give purpose to my life but when i try to call the function of my so called life, it brings me an error that I know not of how to fix. I want an escape, away from my thoughts, away from my mind.
+            <br><br>
+        </p>
+      </div>    
+
+    <div class="stage">
+
+        <div class="container">
+          <div class="ring">
+            <div class="img">
+                <img src="/ad1.jpeg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad1.jpeg" alt="">
+            </div>
+            
+            <div class="img">
+              <img src="/ad1.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad2.jpeg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad2.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad3.jpeg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad3.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad4.jpeg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad1.jpg" alt="">
+            </div>
+            <div class="img">
+              <img src="/ad5.jpeg" alt="">
+            </div>
+          </div>
+        
+      
+      </div>
+    </div>
+
+  
+
+    <script>
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let header = document.getElementById('header');
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            text.style.top = 50 + value * -.1 + '%';
+            bird2.style.top = value * -1.5 + 'px';
+            bird2.style.left = value * 2 + 'px';
+            bird1.style.top = value * -1.5 + 'px';
+            bird1.style.left = value * -5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * -.12 + 'px';
+            forest.style.top = value * .25 + 'px';
+            header.style.top = value * .5 + 'px';
+        })
+
+        let xPos = 0;
+
+    </script>
+
+</body>
+<footer>
+    <a href="http://www.freepik.com">Forest Graphics Designed by Safe</a>
+</footer>
+    
+</body>
+</html>
